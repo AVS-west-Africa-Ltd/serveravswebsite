@@ -18,10 +18,10 @@ module.exports = {
             dialect: 'mysql',
         },
         production: {
-            username: "onthelbo_avs",
+            username: "admin",
             password: "Justkeepitsimple",
-            database:"onthelbo_avswebsite",
-            host:"localhost",
+            database:"a-venture-studio-db",
+            host:"a-venture-studio-db.cfsmk2awusco.eu-north-1.rds.amazonaws.com",
             port: 3306,
             dialect: 'mysql',
         },
