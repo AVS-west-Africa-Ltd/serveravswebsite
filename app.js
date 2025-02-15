@@ -26,6 +26,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, './uploads')));
 app.use("/api/v1", router);
 
+app.get("/", (req, res) => {
+  res.send("<h1>Server is running</h1>");
+});
+
 app.listen(PORT, () => {
   console.log(
     `Worker running on http://localhost:${PORT}`
