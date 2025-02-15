@@ -20,7 +20,7 @@ module.exports = {
         production: {
             username: "admin",
             password: "Justkeepitsimple",
-            database:"a-venture-studio-db",
+            database:"aventurestudio",
             host:"a-venture-studio-db.cfsmk2awusco.eu-north-1.rds.amazonaws.com",
             port: 3306,
             dialect: 'mysql',
